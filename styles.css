@@ -1,0 +1,18 @@
+.footerelements{
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 5%; 
+    padding-right: 5%; 
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+@media (max-width: 750px) {
+    .footerelements{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%; 
+        padding-right: 5%; 
+        gap: 10px;
+    }
+}
